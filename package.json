@@ -1,0 +1,19 @@
+{
+  "name": "roll20-bookmarklet",
+  "version": "1.0.0",
+  "description": "Simple bookmarklet to make searching roll20 posts easier ",
+  "main": "roll20-bookmarklet.js",
+  "scripts": {
+    "compile": "node scripts/compile-onepager.js",
+    "watch": "nodemon --watch src -e js,pug scripts/compile-onepager.js"
+  },
+  "keywords": [],
+  "author": "WFGTurtle",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.9",
+    "pug": "^3.0.2",
+    "uglify-js": "^3.13.10"
+  }
+}
