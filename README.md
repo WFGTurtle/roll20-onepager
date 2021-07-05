@@ -1,10 +1,10 @@
-# Roll20 OnePager script
+# Roll20 OnePager Bookmarklet
 
-Generates an HTML page containing a Bookmarklet to bring the content of an entire Roll20 forum topic into the first page for easy text searching.
+{% include_relative dist/onepager.html %}
 
-To just access a precomiled version of the bookmarklet, go here: [Precompiled bookmarklet](dist/onepager.html)
+---
 
-Otherwise, to build it yourself, clone this repository and run:
+To build the bookmarklet yourself, head over to the repository at [github.com/WFGTurtle/roll20-onepager](https://github.com/WFGTurtle/roll20-onepager), clone it, and run:
 
 ```
 npm install
